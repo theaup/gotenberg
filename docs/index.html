@@ -193,7 +193,7 @@ $ make publish <span class="nv">GOTENBERG_USER_GID</span><span class="o">=</span
 <p>The more resources are granted, the quicker will be the conversions.</p>
 </blockquote>
 
-<p>In the deployment specification of the pod, also specify the uid of the user <code>gotenberg</code>:</p>
+<p>In the deployment specification of the container in the pod, also specify the uid of the user <code>gotenberg</code>:</p>
 
 <pre class="chroma">securityContext:
   privileged: false
